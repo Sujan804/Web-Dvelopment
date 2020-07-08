@@ -1,0 +1,314 @@
+
+/*Global CSS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   width: 100%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.col-25{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.col-33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.col-50{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h2{
+    color:black;
+}
+h1{
+    color: red;
+    font-weight: bold;
+}
+
+/*=======================Theme part=======================*/
+
+/*=======================Top nav  part=======================*/
+
+#top-nav{
+    background-color:brown;
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+   z-index: 99;
+}
+#top-nav .top-con{
+    float: left;
+    margin-left: 50px;
+}
+#top-nav .top-main-nav{
+    float: right;
+    margin-right: 50px;
+}
+#top-nav .top-con i{
+    float: left;
+}
+#top-nav .fab{
+    padding-left: 10px;
+}
+/*-=======================Main-nav part=================*/
+#main-nav{
+    background-color: #00000199;
+    position: fixed;
+    margin-top: 35px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 99;
+}
+#main-nav .company{
+    float: left;
+    margin-left: 50px;
+}
+#main-nav .company i{
+    float: left;
+    color: brown;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+#main-nav .company h2{
+    float: left;
+    color:white;
+    font-weight: bold;
+    
+}
+#main-nav #main-menu{
+    float:right;
+    margin-right: 50px;
+
+}
+#main-menu ul{
+    list-style: none;
+   padding: 10px;
+  
+}
+#main-menu ul li{
+    
+    float: left;
+    padding: 5px 10px;
+
+
+}
+#main-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+#main-menu ul li:hover{
+    
+   background-color: brown;
+   border-radius: 5px;
+
+}
+/*=========================Home part==========================*/
+#home{
+    background-image: url('../images/food.jpg');
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home h3{
+    color: white;
+    font-weight: 1200;
+    font-size: 5rem;
+}
+#home .container{
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+
+}
+/*===================menu section=========================*/
+#menu{
+    overflow: hidden;
+}
+#menu h1{
+  color: brown;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+#menu .content{
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+#menu h2{
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    right: 10px;
+    display: none;
+}
+#menu .content:hover h2{
+    display: block;
+}
+/*==================Order section=================*/
+#order{
+    background-image: url(../Images/food2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#order h1{
+    color: red;
+    font-weight: bold;
+    font-family: fantasy;
+    padding-top: 70px;
+    font-size: 3rem;
+   
+}
+#order p{
+    color: black;
+    opacity: 0.7;
+    line-height: 2rem;
+}
+#order button{
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+#order button:hover{
+    background-color:brown;
+    
+}
+
+
+/* contact section */
+#contact1{
+    text-align: center;
+    background-color:red;
+    color: white;
+    padding: 40px;
+   
+   
+    font-size: 2rem;
+}
+#contact1 span{
+    background-color: white;
+    padding: 20px;
+    color: red;
+    border-radius: 40px;
+}
+#contact2{
+    text-align: center;
+    background-color:red;
+    color: white;
+    padding: 40px;
+   
+   
+    font-size: 2rem;
+}
+#contact2 span{
+    background-color: white;
+    padding: 20px;
+    color: red;
+    border-radius: 40px;
+}
+/*===============menu section===================*/
+#menu1 h1{
+
+    margin-top: 100px;
+    color: brown;
+    font-size: 3rem;
+    font-family: fantasy;
+}
+#menu1 i{
+    color: brown;
+    font-size: 1rem;
+    padding-right: 5px;
+}
+#menu1 h1{
+
+    margin-top: 100px;
+    color: brown;
+    font-size: 3rem;
+    font-family: fantasy;
+}
+#menu1 i{
+    color: brown;
+    font-size: 1rem;
+    padding-right: 5px;
+}
+
+#menu2 h1{
+
+    margin-top: 100px;
+    color: brown;
+    font-size: 3rem;
+    font-family: fantasy;
+}
+#menu2 i{
+    color: brown;
+    font-size: 1rem;
+    padding-right: 5px;
+}
+
+#menu3 h1{
+
+    margin-top: 100px;
+    color: brown;
+    font-size: 3rem;
+    font-family: fantasy;
+}
+#menu3 i{
+    color: brown;
+    font-size: 1rem;
+    padding-right: 5px;
+}
+#menu4 h1{
+
+    margin-top: 100px;
+    color: brown;
+    font-size: 3rem;
+    font-family: fantasy;
+}
+#menu4 i{
+    color: brown;
+    font-size: 1rem;
+    padding-right: 5px;
+}
+
+/*========================Footer section======================*/
+#foot-up{
+    background-color: brown;
+    padding-top:70px;
+    padding-bottom: 70px;
+    color: white;
+}
+#foot-up h2{
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+#copyright{
+    background-color: grey;
+}
+
+
+
