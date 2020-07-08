@@ -1,0 +1,391 @@
+/*============================Universal part====================*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+}
+img
+{
+   width: 100%;
+   height: auto;
+}
+h1{
+    text-align: center;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    color: black;
+    opacity: 0.5;
+}
+h6{
+    text-align: center;
+    font-size: 1.125rem;
+    color: cornflowerblue;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    opacity: 0.7;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.container{
+    margin: auto;
+    width: 1100px;
+    overflow: hidden;
+    text-align: center;
+}
+.col-25{
+    width: 25%;
+    float: left;
+    text-align: cente;
+}
+.col-33{
+    width: 33.33%;
+    float: left;
+    text-align: cente;
+}
+.col-50{
+    width: 50%;
+    float: left;
+    text-align: cente;
+}
+.content{
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom: 5px;
+}
+i{
+    font-size: 2rem;
+    color: yellow;
+}
+.btn{
+    padding: 10px 25px;
+    margin: 0;
+    background-color: aquamarine;
+    color: white;
+    text-transform: uppercase;
+    font-size: .95rem;
+    border-radius: 25px;
+}
+
+/*====================HEADER SECTION======================*/
+
+header{
+    position: fixed;
+    background-color: #00000045;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    z-index: 99;
+    overflow: hidden;
+    
+}
+.company{
+    padding-left: 35px;
+    float: left;
+
+}
+.company img{
+   float: left;
+   display: block;
+   width: 60px;
+   height: auto;
+}
+.company h2{
+    float: left;
+    font-size: 2rem;
+    margin: 10px;
+    text-transform: uppercase;
+    color: black;
+    opacity: 0.7;
+}
+#main-menu{
+    float: right;
+    padding-right: 35px;
+    margin-top: 18px;
+}
+#main-menu ul{
+    list-style: none;
+}
+#main-menu ul li{
+   float: left;
+   margin: auto 1px;
+}
+#main-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    color: black;
+    font-size: .95rem;
+}
+#main-menu ul li a:hover{
+    background-color:rgb(27, 139, 243);
+    color: blanchedalmond;
+    border-radius: 25px;
+}
+/*========================Home Section=============================*/
+#home{
+    background-image: url('../images/Picture7.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 0px;
+}
+#home .author-text{
+    margin-top: 200px;
+    
+}
+#home p{
+    color: blue;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#home  h2{
+    color: darkorange;
+    margin-bottom: 61px;
+}
+#home .content{
+    margin-bottom: 0px;
+}
+#home image{
+    width: 555px;
+    float: right;
+}
+/* About me Part*/
+#progress .col-33{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+#progress h5{
+    text-align: center;
+    text-transform: uppercase;
+    color: #6d6c6c;
+}
+.progressbar{
+    height: 10px;
+    width: 100%;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    margin: 10px auto;
+
+
+}
+.progress-achieve{
+    width: 100%;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 5px;
+
+}
+
+/*=========================My services Section==============================*/
+#service{
+    background-image: url('../images/Picture10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#service .content{
+    background-color: silver;
+    border-radius: 5px;
+    padding: 55px;
+
+}
+#service .content:hover{
+    background-color: skyblue;
+}
+#service h3 {
+    padding: 15px;
+    
+    text-transform: uppercase;
+}
+/*=====================projrct- part=================*/
+#project image{
+    height: 250px;
+    width: 100%;
+
+}
+#project .content{
+    position: relative;
+}
+#project .overlay{
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    text-transform: uppercase;
+    background-color: skyblue;
+    color: white;
+    position: absolute;
+    padding: 15px;
+    display: none;
+}
+#project .content:hover .overlay{
+    display: block;
+} 
+#project h6 a{
+    text-decoration: none;
+    color:turquoise;
+}
+
+/*======================================Review part==============*/
+#review{
+    background: #00000045 url('../images/Picture10.png');
+}
+#review h3{
+	font-size:2rem;
+	color:white;
+	margin:25px auto 30px;
+}
+#review h3{
+	font-size:2rem;
+	color:white;
+	margin:25px auto 30px;
+}
+/*==================contact part=============*/
+
+#contact{
+	background-color:lightblue;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#contact h1{
+	color:white;
+	margin-bottom:35px;
+}
+#contact form input, #contact form textarea{
+	width:100%;
+	background-color: transparent;
+    font-size: 1rem;
+    padding: 10px;
+	margin-bottom:15px;
+	border:1px solid white;
+	box-sizing:border-box;
+	border-radius:5px;
+}
+#contact textarea{
+	height:150px;
+}
+#contact button{
+	border-radius:5px; 
+	padding:15px 35px; 
+	background-color:#216fe2;
+}
+#address{
+	margin:50px auto 25px;
+}
+#address p{
+	font-size:.9rem;
+	color:white;
+	margin-top:15px;
+}
+
+/* ====== Footer Part ======= */
+footer{
+	overflow:hidden;
+	background-color:#f5f5f5;
+	padding:25px 0;
+}
+#copy-right{
+	float:left;
+	color:#484848;
+	margin:10px;
+}
+#social{
+	float:right;
+}
+#social ul{
+	list-style:none;
+}
+#social ul li{
+	float:left;
+	margin:auto 15px;
+	height:20px;
+	width:25px;
+	height: 20px;
+    border: 2px solid #484848;
+    border-radius: 50%;
+	padding-top:5px;
+	text-align:center;
+}
+#social ul li:last-child{
+	margin-right:0px;
+}
+#social ul li a i{
+	font-size:.8rem;
+	color:#484848;
+}
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	background-color:#17161694;
+	height:30px;
+	width:40px;
+	text-align:center;
+	padding-top:10px;
+}
+#upper i{
+	font-size:1rem;
+	color:white;
+}
+@media(max-width:1100px){
+	.container{
+		width:100%;
+	}
+}
+
+
+@media(max-width:576px){
+	.col-25, .col-33, .col-50{
+		width:100%;
+	}
+	/* --- Home Part --- */
+	#home .col-50{
+		width:50%;
+	}
+	#home img{
+		height:175px;
+	}
+	#home .author_text{
+		margin-top:25px;
+	}
+	#home p{
+		font-size:.75rem;
+	}
+	#home h6{
+		font-size:.9rem;
+	}
+	#home h2{
+		font-size:1.25rem;
+		margin-bottom:10px;
+	}
+	#home .btn{
+		font-size:.75rem;
+		padding:7px 15px;
+	}
+	
+	/* --- Review Part --- */
+	#review .col-25{
+		width:50%;
+	}
+	#review .content{
+		margin-top:30px;
+	}
+	/* --- footer Part --- */
+	#copy-right, #social{
+		float:none;
+		text-align:center;
+	}
+	#social ul{
+		margin-left:25%;
+	}
+	
+}
